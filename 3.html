@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type"text/css" href="Newstyle.css">
+		</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+			<img style="float:left; margin:10px; width:100px; height:100px;" src="ShipEatTable.png" alt="Овечка"/></div>
+			<div id="text">
+				<h1>овец кушает стол<h1>
+				</div>
+		</div>
+<div id="nav">
+	<div id="n1"><a href="http://example.com/main" style="color: #DC143C">Главная</a></div>
+	<div id="n2"><a href="http://teset.com/contacts" style="color: #DC143C">Портфолио</a></div>
+	<div id="n3"><a href="http://example.com/partner" style="color: #DC143C">Породы овец</a></div>
+		      </div>
+		      <div id="main">
+	<ol>
+	<a id="VVerh">Начало моей домашней работы</a>
+	<br>
+	<li><a href="http://example.com">Абсолютная ссылка</a></li>
+	<li><a href="https://example.com">Абсолютная ссылка в протоколе https</a></li>
+	<li><a href="ftp://example.com/test.txt">Файл с ftp без авторизации</a></li>
+	<li><a href="admini:123amd321@example.com">Файл с ftp с авторизацией</a></li>
+	<li><a href="http://example.com#primer1">Перейти к 1 примеру</a></li>
+	<li><a href="#VVerh">К началу</a></li>
+	<li>
+		<ul>
+			<li><a href="http://google.com" title="Google">Гугл</a></li>
+			<li><a href="http://yandex.ru" title="Yandex">Яндекс</a></li>
+			<li><a href="http://bing.com" title="Bing">Бинг</a></li>
+		</ul>
+	</li>
+	<li><a href="http://example.com?town=Krasnodar&car=BMW">Ссылка URL с 2 параметрами</a></li>
+	<li><a href="##">Ссылка с пустым href</a></li>
+	<li><a href="http://example.com"rel="nofollow">Ссылка по которой запрещён переход поисковикам</a></li>
+	<li><a href="http://example.com" rel="noindex">Ссылка без индексации</a></li>
+	<li>Нажмтье прямо <a href="http://example.com/">здесь</a> чтобы перейти</li>
+	<li><a href="https://exemple.com"><img src="img.jpg" width="40%"></a></li>
+	<li><img src="пчелокiт.jpg" alt="beekit" usemap="#beekit" width="60%">
+
+<map name="beekit">
+  <area shape="rect" coords="343,306,392,477" alt="лапка пчелы" href="https://ru.wikipedia.org/wiki/Пчёлы">
+  <area shape="circle" coords="150, 300, 114" alt="кошечка" href="https://ru.wikipedia.org/wiki/Кошка">
+</map>
+</li>
+	<li><a href="catalog/page.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+	<li><a href="/about/page1.html">Относительную на страницу в каталоге about</a></li>
+	<li><a href="../newpage.html">Относительную на страницу в каталоге уровнем выше текущего</a></li>
+	<li><a href="../../page123.html"> Относительную на страницу в каталоге двумя уровнями выше</a></li>
+	<li><a href="/"> На главную</a></li>
+	<li><a href="./"> На внутреннюю</a></li>
+	</div>
+		<div id="tabl">
+		<table border="2" width="500px" valign="middle">
+		 <tr class="color-red">
+		  <th>Имя овца</th>
+		  <th>Пол</th>
+		  <th>Порода</th></tr>
+		<tr><td>Жора</td>
+      		<td colspan="2">Померла</td></tr>
+		<tr><td>Чеснок</td>
+		<td>Ж</td>
+		<td>Вислоухая</td></tr>
+		<tr>
+		<td>Пушок</td>
+		<td>Ламинат</td>
+		<td>Сфинкс</td></tr>
+		<tr><td>Лосяшь</td>
+		<td>М</td>
+		<td>Смешариковая</td></tr>
+		<tr>
+		<td>Кiт</td>
+		<td>Ж</td>
+		<td>Шпиц</td>
+		</tr>
+		</table>
+</div>
+<div id="form"><form action="/"
+  		method="POST">
+	<li>   Однострочное текстовое поле</br>
+        <input name="text_field"
+          value="Имя"/></br>
+        Поле email:</br>
+        <input name="email"
+          value="Ваша@почта"
+          type="email" /></br>
+        Дата рождения</br>
+        <input name="date"
+          value="12.09.2021"
+          type="date" /></br>
+	Пол</br>
+        <input type="radio" id="man" value="man">
+	Мужчина</br>
+	<input type="radio" id="woman" value="woman">
+	Женщина</br>
+	Количество конечностей</br>
+	<input type="radio" id="ll" value="ll"></br>
+	Левая нога</br>
+	<input type="radio" id="rl" value="rl"></br>
+	Правая нога</br>
+	<input type="radio" id="la" value="la"></br>
+	Левая рука</br>
+	<input type="radio" id="ra" value="ra"></br>
+	Правая рука</br>
+	Супер способность</br>
+	<p><select name="skills" size="3" multiple>
+    	<option selected value="s1">Бессмертие</option>
+    	<option value="s2">Прохождение сквозь стены</option>
+    	<option value="s3">Левитация</option>
+  	</select></br>
+        Биография:</br>
+        <textarea name="Biography">Расскажите историю вашей жизни</textarea></br>
+	С контрактом ознакомлен</br>
+	<p><input type="checkbox" name="option1" value="a1" checked>Ознакомлен</br>
+      	<p><input type="submit" value="Отправить" 
+   	formaction="handler.php" formmethod="post"></p></li>
+	</ol>
+   </form></div>
+ <div id="footer"><h2>Клыкова Елизавета 210гр.</h2></div>
+</body>
+</html>

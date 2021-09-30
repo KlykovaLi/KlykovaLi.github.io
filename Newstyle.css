@@ -1,0 +1,16 @@
+#header{display: flex;max-width: 100%;
+	background-color:#CD5C5C;padding: 10px;height:150px;margin:0;
+flex-direction: row;align-items:center;justify-content: space-between;
+}
+#logo{flex:1;}
+#text{flex:2;color:#E6E6FA;}
+#nav{background-color:#E9967A;display:flex;flex-direction: column;max-width:100%}
+#main{background-color:#FFA07A;max-width:100%;flex-direction: column;display:flex;}
+#tabl{order:1;background-color:#CD5C5C;}
+#form{
+background-color:#E9967A;order:0;}
+#footer{background-color:#CD5C5C;padding: 10px;height:150px;margin:0 auto;color: #E6E6FA;}
+@nedia screen and(min-width:768px){
+#nav{ flex-direction:row; judtify-content:space-around;}
+#form{order:1;}
+#tabl{order:0;}}
